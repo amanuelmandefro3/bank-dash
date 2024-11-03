@@ -20,15 +20,15 @@ const Landing: React.FC = () => {
             <div className="flex items-center gap-3">
               <Link
                 href="./signin"
-                className="text-lg border bg-indigo-500 border-[#343C6A] hover:bg-indigo-600 hover:text-white px-4 py-2 rounded-3xl text-center w-32"
+                className="text-lg border text-white bg-indigo-500 border-[#343C6A] hover:bg-indigo-600 hover:text-white px-4 py-2 rounded-3xl text-center w-32"
               >
                 Login
               </Link>
               <Link
                 href="./signup"
-                className="w-32 text-lg border hover:border-indigo-500  hover:bg-indigo-500 text-white px-4 py-2 rounded-3xl text-center hover:text-black "
+                className="w-32 text-lg border border-indigo-500  hover:bg-indigo-600 text-indigo-600 px-4 py-2 rounded-3xl text-center hover:text-white "
               >
-                signUp
+                SignUp
               </Link>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Landing: React.FC = () => {
               </div>
               <Link
                 href="./signup"
-                className="text-lg border hover:border-[#343C6A] bg-[#343C6A] hover:bg-[#CBD6CC] text-white px-4 py-2 rounded-3xl text-center hover:text-black"
+                className="text-lg border hover:border-indigo-600 bg-indigo-500 hover:bg-indigo-600 text-white px-4 py-2 rounded-3xl text-center hover:text-black"
               >
                 Get Started
               </Link>
@@ -65,21 +65,21 @@ const Landing: React.FC = () => {
           <div className="md:w-4/5 z-50 flex flex-wrap  justify-between items-center gap-5">
             <div className="w-[45%] rounded-lg md:w-1/5 flex flex-col items-center justify-center text-center gap-1 dark:bg-gray-600 dark:text-white bg-white shadow-xl hover:scale-105 h-24">
               <div className="font-bold text-2xl">100% Safe</div>
-              <div className="font-thin text-sm">Your money is safe</div>
+              <div className="">Your money is safe</div>
             </div>
             <div className="w-[45%] rounded-lg md:w-1/5 flex flex-col items-center justify-center text-center gap-1 dark:bg-gray-600 dark:text-white bg-white shadow-xl hover:scale-105 h-24">
               <div className="font-bold text-2xl">Quick Send</div>
-              <div className="font-thin text-sm">Transfer money in 1 click</div>
+              <div className="">Transfer money in 1 click</div>
             </div>
             <div className="w-[45%] rounded-lg md:w-1/5 flex flex-col items-center justify-center text-center gap-1 dark:bg-gray-600 dark:text-white bg-white shadow-xl hover:scale-105 h-24">
               <div className="font-bold text-2xl">Loan</div>
-              <div className="font-thin text-sm">
+              <div className="">
                 Manage your loans efficiently
               </div>
             </div>
             <div className="w-[45%] rounded-lg md:w-1/5 flex flex-col items-center justify-center text-center gap-1 dark:bg-gray-600 dark:text-white bg-white shadow-xl hover:scale-105 h-24">
               <div className="font-bold text-2xl">Investment</div>
-              <div className="font-thin text-sm">
+              <div className="">
                 Grow your wealth with smart investments
               </div>
             </div>
